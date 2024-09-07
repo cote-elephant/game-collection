@@ -1,0 +1,79 @@
+#dragonRepeller {
+  width: 100%;
+  height: 400px;
+  background-color: #0a0a23;
+  align-items: center;
+}
+#dragonRepeller #textArea {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+}
+#dragonRepeller #game {
+  width: 500px;
+  height: 390px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 10px;
+}
+#dragonRepeller #controls {
+  gap: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#dragonRepeller #button4 {
+  margin-left: auto;
+}
+#dragonRepeller #controls,
+#dragonRepeller #stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+#dragonRepeller #monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+#dragonRepeller .stat {
+  padding-right: 10px;
+}
+#dragonRepeller button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #5bfe32;
+  background-image: linear-gradient(#7af732, #8fff33);
+  border: 5px solid #84fe32;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spaceBalls {
+  margin: 15px 0;
+  padding: 15px 0;
+  background-color: beige;
+}
+#spaceBalls #canvas {
+  border: red 10px solid;
+  width: 500px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */

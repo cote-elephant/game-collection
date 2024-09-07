@@ -1,0 +1,68 @@
+// Main container for the Dragon Repeller game
+#dragonRepeller {
+  width: 100%;
+  height: 400px;
+  background-color: #0a0a23;
+  align-items: center;
+
+  // Main text area styling
+  #textArea {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  // Game interface styling
+  #game {
+    width: 500px;
+    height: 390px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  // Control buttons styling
+  #controls {
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // Special styling for the "Start over?" button
+  #button4 {
+    margin-left: auto;
+  }
+
+  // Shared styling for controls and stats sections
+  #controls,
+  #stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+  }
+
+  // Monster stats section styling
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+
+  // General stat element styling
+  .stat {
+    padding-right: 10px;
+  }
+
+  // Button styling
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #5bfe32;
+    background-image: linear-gradient(#7af732, #8fff33);
+    border: 5px solid #84fe32;
+  }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>GameFunLearn</title>
+  </head>
+  <body>
+    <!-- Header section containing the welcome title -->
+    <header>
+      <h1>WELCOME TO THE GAMPAGE</h1>
+      <div></div>
+    </header>
+    <!-- DRAGON REPELLER: Main game section -->
+    <section id="dragonRepeller">
+      <!-- Container for the game interface -->
+      <div id="game">
+        <!-- Section displaying the player's stats -->
+        <div id="stats">
+          <!-- displays user's XP -->
+          <span class="stat">
+            XP: <strong> <span id="xpText">0</span> </strong>
+          </span>
+          <!-- displays user's HEALTH -->
+          <span class="stat strong">
+            Health: <strong> <span id="healthText">100</span> </strong>
+          </span>
+          <!-- displays user's GOLD -->
+          <span class="stat strong">
+            Gold: <strong> <span id="goldText">50</span> </strong>
+          </span>
+        </div>
+        <!-- Section containing the game control buttons -->
+        <div id="controls">
+          <!-- to go to the store -->
+          <button id="button1">Go to store</button>
+          <!-- to go to the cave -->
+          <button id="button2">Go to cave</button>
+          <!-- to go to fight the dragon -->
+          <button id="button3">Fight dragon</button>
+          <!-- restart the game-->
+          <button id="button4">Start over?</button>
+        </div>
+        <!-- Section displaying the monster's stats -->
+        <div id="monsterStats">
+          <!-- displays the monster's name -->
+          <span class="stat"
+            >Monster Name:
+            <strong> <span id="monsterName"></span> </strong>
+          </span>
+          <!-- displays the monster's health -->
+          <span class="stat"
+            >Health:
+            <strong> <span id="monsterHealth"></span> </strong>
+          </span>
+        </div>
+        <!-- Main text area displaying the game narrative -->
+        <div id="textArea">
+          Welcome to Dragon Repeller. You must defeat the dragon that is
+          preventing people from leaving the town. You are in the town square.
+          Where do you want to go? Use the buttons above.
+        </div>
+      </div>
+      <!-- Link to the external JS file for game logic -->
+      <script src="../js/dragonRepeller.js"></script>
+    </section>
+    <section id="spaceBalls">
+      <!-- SPACE INVADERS: Main game section -->
+      <canvas id="canvas"></canvas>
+      <script src="../js/spaceBalls-gameloop.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js"></script>
+      <script src="../js/spaceBalls-app.js"></script>
+    </section>
+    <footer></footer>
+  </body>
+</html>
