@@ -1,6 +1,6 @@
-# **GAME PAGE**
+# <img src="./src/assets/buttons.jpg" alt="Game Screenshot" width="200" height="auto" /> **GAME PAGE**
 
-<img src="./src/assets/buttons.jpg" alt="Game Screenshot" width="200" height="150" />
+
 
 ## a novice in programming world so just trying to code different stuff
 
